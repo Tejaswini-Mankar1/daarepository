@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            border: none;
+            border-radius: 3px;
+            padding: 10px 15px;
+            display: inline-block;
+            border-bottom: 2px solid black ;
+            font-family: Georgia;
+            align-items: center;
+        }
+        body{
+            background-image: url("techy.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        button{
+        background-color: black;
+        border-radius: 3px;
+        color: white;
+        height: 15px;
+        width: 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       /* padding: 14px 10px;
+        padding-bottom: 20px;*/
+        margin: 5px 2px;
+        margin-left: 130%;
+        }
+        textarea{
+            border-radius: 3px;
+            border-bottom: 2px solid black;
+            font-family: Georgia;
+            align-items: center;
+            padding: 12px 15px;
+        }
+        div.transbox{
+            height: 450px;
+            position: fixed;
+            top: 120px;
+            left: 800px;
+            background-color: rgba(100, 200, 200, 0.9);
+            border-radius: 25px;
+            color: white;
+            padding: 20px;
+            box-shadow: 10px 10px black;
+        }
+        p{
+            font-family: Georgia;
+            font-size: 17px;
+            text-indent: 7%;
+        }
+        ::-webkit-input-placeholder{
+        font-size: 15px;
+        }
+        p.b{
+            font-family: Bahnschrift Condensed;
+            padding-left : 100px;
+            margin-left: 150px;
+            color: #f6f6f6;
+            font-size : 40px;
+            line-height: 44px;
+            margin: 0 0 24px;
+        }
+        p.c{
+            font-family: Verdana, Geneva, Tahoma, sans-serif ;
+        font-size: 70px;
+        font-weight: bolder;
+        line-height: 20px;
+        }
+        button:hover{
+            transition: 0.3s;
+            color: black;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <form action="pr1(2)_Cw.html" method="post">
+        <br><br><p class="gradBtn"></p><p class="gradBtn"></p>
+        <div class="transbox">
+            <table>
+                <tr><td><p style="color: black;">Your Name:</td><td><input type="text" name="name"></p></td></tr>
+                <tr><td><p style="color: black;">your email: </td><td><input type="email" name="phone"></td></p></td></tr>
+                <tr><td><p style="color: black;">phone: </td><td><input type="tel" name="phone"></td></p></td></tr>
+                <tr>
+                    <td>
+                        <p style="color: black;">gender:</p>
+                        <td style="color: black;">
+                            <input type="radio" name="gender" value="female" >female
+                            <input type="radio" name="gender" value="male" >male
+                            <input type="radio" name="gender" value="other" >other</p>
+                        </td>
+                    </td>
+                </tr>
+            <tr>
+                <td><p style="color: black;">address:</td><td><textarea name="address" cols="30" rows="3"></textarea></td></p><br>
+            </tr>
+            <tr><td><p><input type="button" value="Register" name="Register"></p></td></tr>
+            </table>
+        </div>
+        <p class="c">Develop</p>
+        <p class="c">Experiences.</p>
+        <p class="b" style="color: black;">UI frameworks and <br> app development tools that 2.1 <br>million developers love <br>special offer only for you.<br>HURRY!!</p>
+        
+  </form>
+</body>
+</html>
